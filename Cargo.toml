@@ -1,0 +1,17 @@
+[package]
+name = "nats-client-publish-testing-message"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-nats = "0.34.0"
+bytes = "1.6.0"
+chrono = { version = "0.4.35", features = ["serde"] }
+clap = { version = "4.5.4", features = ["derive"] }
+nats = "0.24.1"
+serde = { version = "1.0.197", features = ["derive"] }
+serde_json = "1.0.114"
+tokio = { version = "1.36.0", features = ["full"] }
+futures = "0.3.30"
